@@ -2,4 +2,4 @@ include *.md
 include LICENSE
 prune dist
 prune build
-recursive-include omero-quay-import-ui *
+recursive-include omero_quay_import_ui *
