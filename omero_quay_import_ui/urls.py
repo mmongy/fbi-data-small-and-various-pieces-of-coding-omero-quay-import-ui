@@ -22,5 +22,5 @@ from . import views
 
 urlpatterns = [
     # index 'home page' of the app
-    path("", views.index, name="omero_quay_import_ui_index"),
+    path(r'^$', views.index, name="omero_quay_import_ui_index"),
 ]
