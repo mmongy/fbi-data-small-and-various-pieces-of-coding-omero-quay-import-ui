@@ -18,11 +18,11 @@
 #
 from setuptools import setup, find_packages
 
-url = "https://gitlab.in2p3.fr/fbi-data/small-and-various-pieces-of-coding/omero-quay-import-ui"
+url = "https://github.com/mmongy/fbi-data-small-and-various-pieces-of-coding-omero-quay-import-ui"
 version = "0.1.0.dev0"
 
 setup(
-    name="omero-quay-import-ui",
+    name="omero_quay_import_ui",
     version=version,
     description="User interface for omero-quay",
     packages=find_packages(),
